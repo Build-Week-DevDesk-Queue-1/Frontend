@@ -32,7 +32,7 @@ function TicketForm() {
 
     const onSubmit = data => {
         console.log("Starting to submit a ticket", data);
-        dispatch(postTicket(data, ()=>history.push('/dashboard')));
+        dispatch(postTicket(data, history.push('/dashboard')));
     }
 
     return (

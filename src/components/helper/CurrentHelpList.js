@@ -3,7 +3,7 @@ import axiosWithAuth from '../../utils/axiosWithAuth';
 
 import CurrentHelpItem from "./CurrentHelpItem";
 
-import { ContentDiv,H2} from "../../Style/HelperAppStyle"
+import { ContentDiv, H2 } from "../../Style/HelperAppStyle"
 import { GridDiv } from "../../Style/ContentStyle";
 
 function CurrentHelpList() {

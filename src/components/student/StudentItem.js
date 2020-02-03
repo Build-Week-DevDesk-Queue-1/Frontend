@@ -1,5 +1,6 @@
 import React from "react";
 import { TicketCard } from "../../Style/ContentStyle"
+
 function StudentItem(props) {
   
   return (
